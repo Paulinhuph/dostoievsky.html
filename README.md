@@ -20,10 +20,13 @@ projeto-dostoievski/
 │   └── estilo.css
 ├── img/
 │   ├── autor-principal.png
-│   ├── obra-1.jpg
-│   ├── obra-2.jpg
-│   ├── obra-3.jpg
-│   └── vida-autor.jpg
+│   ├── obra-1.png
+│   ├── obra-2.png
+│   ├── obra-3.png
+│   ├── obra-4.png
+│   ├── obra-5.png
+│   ├── obra-6.png
+│   └── vida-autor.png
 └── README.md
 ```
 
