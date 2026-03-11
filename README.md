@@ -60,3 +60,6 @@ Durante o desenvolvimento, foram praticados conceitos importantes de front-end, 
 - Estilização de botões, textos e seções
 - Uso de classes com organização mais clara
 - Construção de uma interface com tema definido
+
+<img width="1920" height="1080" alt="Captura de Tela (19)" src="https://github.com/user-attachments/assets/303ac799-086d-4077-a6bd-5751b2ef665b" />
+
