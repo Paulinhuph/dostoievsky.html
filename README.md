@@ -36,50 +36,6 @@ projeto-dostoievski/
 2. Abra o arquivo `index.html` em qualquer navegador moderno.
 3. O CSS será carregado automaticamente a partir de `css/estilo.css`.
 
-## Como trocar as imagens
-
-As imagens foram preparadas para funcionar com placeholders elegantes mesmo quando os arquivos visuais ainda não existem ou não foram substituídos.
-
-Substitua os arquivos dentro da pasta `img/` usando exatamente estes nomes:
-
-- `img/autor-principal.png`
-- `img/obra-1.png`
-- `img/obra-2.png`
-- `img/obra-3.png`
-- `img/vida-autor.png`
-
-Se quiser usar nomes diferentes, altere os caminhos em `index.html` dentro de cada bloco com `style="--imagem-url: url('...')"` e também no atributo `src` da imagem acessível correspondente.
-
-## Como alterar os textos
-
-Todos os textos estão diretamente no arquivo `index.html`.
-
-Principais áreas para edição:
-
-- marca e menu no cabeçalho
-- título e descrição da seção principal
-- cartões da seção “Profundidade Filosófica”
-- cartões da seção “Obras-Primas”
-- texto da seção “A Vida de um Visionário”
-- conteúdo institucional e links do rodapé
-
-## Como alterar as cores principais
-
-As cores centrais estão no topo do arquivo `css/estilo.css`, dentro do bloco `:root`.
-
-Variáveis principais:
-
-- `--cor-fundo`
-- `--cor-fundo-secundario`
-- `--cor-vinho`
-- `--cor-vermelho-destaque`
-- `--cor-vermelho-intenso`
-- `--cor-texto-principal`
-- `--cor-texto-secundario`
-- `--cor-borda`
-
-Ao alterar essas variáveis, o restante da interface acompanha automaticamente a nova paleta.
-
 ## Seções que compõem a página
 
 A página foi dividida nas seguintes áreas:
@@ -102,6 +58,5 @@ O layout foi preparado para três faixas principais:
 ## Site: 
 "https://dostoievsky.vercel.app"
 
-As imagens usam quadros com fundo em gradiente e camada de `background-image`, o que ajuda a preservar a composição mesmo antes da inserção das imagens finais.
 
 <img width="1920" height="1080" alt="Captura de Tela (19)" src="https://github.com/user-attachments/assets/26181f01-e10d-41d9-b547-3bd92e4885db" />
