@@ -1,65 +1,99 @@
 # Arquivo Dostoiévski
 
-Um site temático inspirado em **Fiódor Dostoiévski**, desenvolvido como homenagem à sua obra, ao seu pensamento e à profundidade filosófica presente em seus escritos.
+Projeto estático em HTML5 e CSS3 inspirado em uma landing page institucional e literária sobre Fiódor Dostoiévski. A proposta visual busca um tom editorial, sóbrio e dramático, com predominância de preto, azul-marinho profundo e vermelho intenso.
 
-O projeto foi criado com **HTML5** e **CSS3**, com foco em **estudos de desenvolvimento web**, explorando estrutura semântica, composição visual, tipografia, contraste, organização de conteúdo e construção de interfaces temáticas.
+## Visão geral
 
-## Sobre o projeto
+O projeto foi organizado para abrir diretamente no navegador com apenas dois arquivos principais:
 
-O **Arquivo Dostoiévski** é uma página temática que busca apresentar, de forma visualmente marcante e conceitualmente coerente, elementos centrais do universo do autor, como:
+- `index.html`
+- `css/estilo.css`
 
-- **Obras literárias**
-- **Bibliografia**
-- **Temas filosóficos**
-- **Estética inspirada na atmosfera dramática e introspectiva de sua literatura**
+Não há JavaScript, bibliotecas externas de interface ou frameworks. A página foi montada com estrutura semântica, comentários didáticos em português e estilos preparados para futura substituição manual das imagens.
 
-A proposta não é apenas exibir informações, mas também traduzir visualmente a densidade emocional e intelectual associada à obra de Dostoiévski.
+## Estrutura de pastas
 
-## Objetivos do projeto
+```text
+projeto-dostoievski/
+├── index.html
+├── css/
+│   └── estilo.css
+├── img/
+│   ├── autor-principal.png
+│   ├── obra-1.jpg
+│   ├── obra-2.jpg
+│   ├── obra-3.jpg
+│   └── vida-autor.jpg
+└── README.md
+```
 
-Este projeto foi desenvolvido com fins de estudo e prática em:
+## Como abrir no navegador
 
-- Estruturação de páginas com **HTML semântico**
-- Estilização com **CSS**
-- Criação de identidade visual temática
-- Organização de seções informativas
-- Prática de layout, espaçamento, tipografia e contraste
-- Desenvolvimento de sensibilidade estética aplicada ao front-end
+1. Mantenha a estrutura de pastas exatamente como está.
+2. Abra o arquivo `index.html` em qualquer navegador moderno.
+3. O CSS será carregado automaticamente a partir de `css/estilo.css`.
 
-## Tecnologias utilizadas
+## Como trocar as imagens
 
-- **HTML5**
-- **CSS3**
+As imagens foram preparadas para funcionar com placeholders elegantes mesmo quando os arquivos visuais ainda não existem ou não foram substituídos.
 
-## Funcionalidades e seções
+Substitua os arquivos dentro da pasta `img/` usando exatamente estes nomes:
 
-O site apresenta seções temáticas como:
+- `img/autor-principal.png`
+- `img/obra-1.jpg`
+- `img/obra-2.jpg`
+- `img/obra-3.jpg`
+- `img/vida-autor.jpg`
 
-- **Página inicial** com destaque visual para o autor
-- **Biografia**
-- **Obras-primas / obras literárias**
-- **Temas centrais e profundidade filosófica**
-- **Recursos visuais e textuais voltados à ambientação do projeto**
+Se quiser usar nomes diferentes, altere os caminhos em `index.html` dentro de cada bloco com `style="--imagem-url: url('...')"` e também no atributo `src` da imagem acessível correspondente.
 
-## Proposta visual
+## Como alterar os textos
 
-A identidade do site foi construída com uma estética mais sóbria, dramática e contemplativa, buscando dialogar com o universo literário de Dostoiévski. Entre os elementos explorados estão:
+Todos os textos estão diretamente no arquivo `index.html`.
 
-- Paleta escura com destaque em tons quentes
-- Tipografia com personalidade editorial/literária
-- Composição visual inspirada em arquivo, acervo e contemplação
-- Ênfase em contraste e presença textual
+Principais áreas para edição:
 
-## Aprendizados com o projeto
+- marca e menu no cabeçalho
+- título e descrição da seção principal
+- cartões da seção “Profundidade Filosófica”
+- cartões da seção “Obras-Primas”
+- texto da seção “A Vida de um Visionário”
+- conteúdo institucional e links do rodapé
 
-Durante o desenvolvimento, foram praticados conceitos importantes de front-end, como:
+## Como alterar as cores principais
 
-- Hierarquia visual
-- Posicionamento de elementos
-- Responsividade básica
-- Estilização de botões, textos e seções
-- Uso de classes com organização mais clara
-- Construção de uma interface com tema definido
+As cores centrais estão no topo do arquivo `css/estilo.css`, dentro do bloco `:root`.
 
-<img width="1920" height="1080" alt="Captura de Tela (19)" src="https://github.com/user-attachments/assets/303ac799-086d-4077-a6bd-5751b2ef665b" />
+Variáveis principais:
 
+- `--cor-fundo`
+- `--cor-fundo-secundario`
+- `--cor-vinho`
+- `--cor-vermelho-destaque`
+- `--cor-vermelho-intenso`
+- `--cor-texto-principal`
+- `--cor-texto-secundario`
+- `--cor-borda`
+
+Ao alterar essas variáveis, o restante da interface acompanha automaticamente a nova paleta.
+
+## Seções que compõem a página
+
+A página foi dividida nas seguintes áreas:
+
+1. Cabeçalho com marca e navegação.
+2. Seção principal com retrato, título, citação e botões.
+3. Seção “Profundidade Filosófica” com três cartões temáticos.
+4. Seção “Obras-Primas” com três cartões editoriais.
+5. Seção “A Vida de um Visionário” com destaque biográfico.
+6. Rodapé com bloco institucional, um único bloco “Explorar” e base legal.
+
+## Como a responsividade foi pensada
+
+O layout foi preparado para três faixas principais:
+
+- `desktop`: colunas amplas, maior respiro lateral e destaque visual mais cinematográfico;
+- `tablet`: reorganização gradual das grades e redução de espaçamentos;
+- `mobile`: empilhamento das colunas, botões em largura total e adaptação do cabeçalho para leitura confortável.
+
+As imagens usam quadros com fundo em gradiente e camada de `background-image`, o que ajuda a preservar a composição mesmo antes da inserção das imagens finais.
