@@ -99,7 +99,8 @@ O layout foi preparado para três faixas principais:
 - `tablet`: reorganização gradual das grades e redução de espaçamentos;
 - `mobile`: empilhamento das colunas, botões em largura total e adaptação do cabeçalho para leitura confortável.
   
-## Site: <a href="https://dostoievsky.vercel.app"></a>
+## Site: 
+"https://dostoievsky.vercel.app"
 
 As imagens usam quadros com fundo em gradiente e camada de `background-image`, o que ajuda a preservar a composição mesmo antes da inserção das imagens finais.
 <img width="1920" height="1080" alt="Captura de Tela (19)" src="https://github.com/user-attachments/assets/26181f01-e10d-41d9-b547-3bd92e4885db" />
